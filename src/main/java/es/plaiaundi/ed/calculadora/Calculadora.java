@@ -44,4 +44,8 @@ public class Calculadora {
         // TODO Persona C: implementar la multiplicacion
         throw new UnsupportedOperationException("multiplicar() pendiente de implementar");
     }
+
+    public int potencia(int base, int exponente) {
+        return (int) Math.pow(base, exponente);
+    }
 }
